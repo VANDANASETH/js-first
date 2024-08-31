@@ -15,7 +15,7 @@ const app = express()
     try {
         await mongoose.connect(`${process.env.MONGODB_URI}/$
             {DB_NAME}`)
-            app.om("error", (error)=>{
+            app.on("error", (error)=>{
                 console.log("ERR:", error);
                 throw error
             })
