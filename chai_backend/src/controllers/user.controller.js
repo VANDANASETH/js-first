@@ -6,4 +6,10 @@ const registerUser = asyncHandler( async (req, res) =>{
     })
 })
 
-export {registerUser}
+const loginUser = asyncHandler(async(req, res)=>{
+    res.json({
+        message:'hi there'
+    })
+})
+
+export {registerUser, loginUser}
