@@ -1,2 +1,2 @@
-# js-first
+# Node & Express
 A code repo for javascript
